@@ -1,5 +1,5 @@
 //
-//  Copyright © Essential Developer. All rights reserved.
+//  Created by Kirill Filipov on 4/22/25.
 //
 
 import Foundation
