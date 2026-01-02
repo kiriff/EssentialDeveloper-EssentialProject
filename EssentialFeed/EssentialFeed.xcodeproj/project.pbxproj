@@ -29,7 +29,7 @@
 		310A0F482F0877BE00FA1E2B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				RemoteFeedLoaderTests.swift,
+				"Feed API/RemoteFeedLoaderTests.swift",
 			);
 			target = 080EDEF921B6DA7E00813479 /* EssentialFeedTests */;
 		};
