@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,14 +26,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		310A0F482F0877BE00FA1E2B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		310A0F482F0877BE00FA1E2B /* Exceptions for "EssentialFeedTests" folder in "EssentialFeedTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Feed API/RemoteFeedLoaderTests.swift",
 			);
 			target = 080EDEF921B6DA7E00813479 /* EssentialFeedTests */;
 		};
-		310A0F5B2F0877C800FA1E2B /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		310A0F5B2F0877C800FA1E2B /* Exceptions for "EssentialFeed" folder in "EssentialFeed" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Feed API/FeedItemsMapper.swift",
@@ -47,25 +47,35 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		310A0F462F0877BD00FA1E2B /* EssentialFeedTests */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (310A0F482F0877BE00FA1E2B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = EssentialFeedTests; sourceTree = "<group>"; };
-		310A0F572F0877C800FA1E2B /* EssentialFeed */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (310A0F5B2F0877C800FA1E2B /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = EssentialFeed; sourceTree = "<group>"; };
+		310A0F462F0877BD00FA1E2B /* EssentialFeedTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				310A0F482F0877BE00FA1E2B /* Exceptions for "EssentialFeedTests" folder in "EssentialFeedTests" target */,
+			);
+			path = EssentialFeedTests;
+			sourceTree = "<group>";
+		};
+		310A0F572F0877C800FA1E2B /* EssentialFeed */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				310A0F5B2F0877C800FA1E2B /* Exceptions for "EssentialFeed" folder in "EssentialFeed" target */,
+			);
+			path = EssentialFeed;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		080EDEEE21B6DA7E00813479 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		080EDEF721B6DA7E00813479 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				080EDEFB21B6DA7E00813479 /* EssentialFeed.framework in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -93,10 +103,8 @@
 /* Begin PBXHeadersBuildPhase section */
 		080EDEEC21B6DA7E00813479 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
@@ -111,8 +119,6 @@
 				080EDEEF21B6DA7E00813479 /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			name = EssentialFeed;
 			productName = EssentialFeed;
@@ -159,7 +165,6 @@
 				};
 			};
 			buildConfigurationList = 080EDEEB21B6DA7E00813479 /* Build configuration list for PBXProject "EssentialFeed" */;
-			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -167,6 +172,7 @@
 				Base,
 			);
 			mainGroup = 080EDEE721B6DA7E00813479;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 080EDEF221B6DA7E00813479 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -180,34 +186,26 @@
 /* Begin PBXResourcesBuildPhase section */
 		080EDEEF21B6DA7E00813479 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		080EDEF821B6DA7E00813479 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		080EDEED21B6DA7E00813479 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		080EDEF621B6DA7E00813479 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -220,7 +218,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		080EDF0321B6DA7E00813479 /* Debug */ = {
+		080EDF0321B6DA7E00813479 /* Debug configuration for PBXProject "EssentialFeed" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,7 +289,7 @@
 			};
 			name = Debug;
 		};
-		080EDF0421B6DA7E00813479 /* Release */ = {
+		080EDF0421B6DA7E00813479 /* Release configuration for PBXProject "EssentialFeed" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +353,7 @@
 			};
 			name = Release;
 		};
-		080EDF0621B6DA7E00813479 /* Debug */ = {
+		080EDF0621B6DA7E00813479 /* Debug configuration for PBXNativeTarget "EssentialFeed" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -385,7 +383,7 @@
 			};
 			name = Debug;
 		};
-		080EDF0721B6DA7E00813479 /* Release */ = {
+		080EDF0721B6DA7E00813479 /* Release configuration for PBXNativeTarget "EssentialFeed" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -414,7 +412,7 @@
 			};
 			name = Release;
 		};
-		080EDF0921B6DA7E00813479 /* Debug */ = {
+		080EDF0921B6DA7E00813479 /* Debug configuration for PBXNativeTarget "EssentialFeedTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -437,7 +435,7 @@
 			};
 			name = Debug;
 		};
-		080EDF0A21B6DA7E00813479 /* Release */ = {
+		080EDF0A21B6DA7E00813479 /* Release configuration for PBXNativeTarget "EssentialFeedTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -465,28 +463,25 @@
 		080EDEEB21B6DA7E00813479 /* Build configuration list for PBXProject "EssentialFeed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				080EDF0321B6DA7E00813479 /* Debug */,
-				080EDF0421B6DA7E00813479 /* Release */,
+				080EDF0321B6DA7E00813479 /* Debug configuration for PBXProject "EssentialFeed" */,
+				080EDF0421B6DA7E00813479 /* Release configuration for PBXProject "EssentialFeed" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		080EDF0521B6DA7E00813479 /* Build configuration list for PBXNativeTarget "EssentialFeed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				080EDF0621B6DA7E00813479 /* Debug */,
-				080EDF0721B6DA7E00813479 /* Release */,
+				080EDF0621B6DA7E00813479 /* Debug configuration for PBXNativeTarget "EssentialFeed" */,
+				080EDF0721B6DA7E00813479 /* Release configuration for PBXNativeTarget "EssentialFeed" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		080EDF0821B6DA7E00813479 /* Build configuration list for PBXNativeTarget "EssentialFeedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				080EDF0921B6DA7E00813479 /* Debug */,
-				080EDF0A21B6DA7E00813479 /* Release */,
+				080EDF0921B6DA7E00813479 /* Debug configuration for PBXNativeTarget "EssentialFeedTests" */,
+				080EDF0A21B6DA7E00813479 /* Release configuration for PBXNativeTarget "EssentialFeedTests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
