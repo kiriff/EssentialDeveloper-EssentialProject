@@ -29,6 +29,7 @@
 		310A0F482F0877BE00FA1E2B /* Exceptions for "EssentialFeedTests" folder in "EssentialFeedTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Feed API/Helpers/XCTestCase+MemoryLeakTracking.swift",
 				"Feed API/RemoteFeedLoaderTests.swift",
 				"Feed API/URLSessionHTTPClientTests.swift",
 			);
