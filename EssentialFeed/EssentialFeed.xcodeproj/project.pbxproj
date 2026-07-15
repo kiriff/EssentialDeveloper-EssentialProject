@@ -40,7 +40,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"Feed API/Helpers/XCTestCase+MemoryLeakTracking.swift",
-				"Feed API/RemoteFeedLoaderTests.swift",
+				"Feed API/LoadFeedFromRemoteUseCaseTests.swift",
 				"Feed API/URLSessionHTTPClientTests.swift",
 			);
 			target = 080EDEF921B6DA7E00813479 /* EssentialFeedTests */;
