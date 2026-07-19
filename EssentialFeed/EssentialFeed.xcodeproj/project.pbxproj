@@ -42,6 +42,7 @@
 				"Feed API/Helpers/XCTestCase+MemoryLeakTracking.swift",
 				"Feed API/LoadFeedFromRemoteUseCaseTests.swift",
 				"Feed API/URLSessionHTTPClientTests.swift",
+				"Feed Cache/CacheFeedUseCaseTests.swift",
 			);
 			target = 080EDEF921B6DA7E00813479 /* EssentialFeedTests */;
 		};
