@@ -39,10 +39,10 @@
 		310A0F482F0877BE00FA1E2B /* Exceptions for "EssentialFeedTests" folder in "EssentialFeedTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"Feed API/Helpers/XCTestCase+MemoryLeakTracking.swift",
 				"Feed API/LoadFeedFromRemoteUseCaseTests.swift",
 				"Feed API/URLSessionHTTPClientTests.swift",
 				"Feed Cache/CacheFeedUseCaseTests.swift",
+				"Helpers/XCTestCase+MemoryLeakTracking.swift",
 			);
 			target = 080EDEF921B6DA7E00813479 /* EssentialFeedTests */;
 		};
@@ -61,7 +61,7 @@
 		3127C25C2FDA005300C9FD5D /* Exceptions for "EssentialFeedTests" folder in "EssentialFeedAPIEndToEndTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"Feed API/Helpers/XCTestCase+MemoryLeakTracking.swift",
+				"Helpers/XCTestCase+MemoryLeakTracking.swift",
 			);
 			target = 3127C2502FD9FBE800C9FD5D /* EssentialFeedAPIEndToEndTests */;
 		};
