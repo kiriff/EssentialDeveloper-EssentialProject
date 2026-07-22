@@ -53,6 +53,7 @@
 				"Feed API/HTTPClient.swift",
 				"Feed API/RemoteFeedLoader.swift",
 				"Feed API/URLSessionHTTPClient.swift",
+				"Feed Cache/FeedStore.swift",
 				"Feed Cache/LocalFeedLoader.swift",
 				"Feed Feature/FeedItem.swift",
 				"Feed Feature/FeedLoader.swift",
