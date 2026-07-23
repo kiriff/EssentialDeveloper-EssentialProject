@@ -55,9 +55,9 @@
 				"Feed API/RemoteFeedLoader.swift",
 				"Feed API/URLSessionHTTPClient.swift",
 				"Feed Cache/FeedStore.swift",
-				"Feed Cache/LocalFeedItem.swift",
+				"Feed Cache/LocalFeedImage.swift",
 				"Feed Cache/LocalFeedLoader.swift",
-				"Feed Feature/FeedItem.swift",
+				"Feed Feature/FeedImage.swift",
 				"Feed Feature/FeedLoader.swift",
 			);
 			target = 080EDEF021B6DA7E00813479 /* EssentialFeed */;
