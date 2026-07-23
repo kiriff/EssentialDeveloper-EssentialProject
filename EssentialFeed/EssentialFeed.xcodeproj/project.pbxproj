@@ -51,6 +51,7 @@
 			membershipExceptions = (
 				"Feed API/FeedItemsMapper.swift",
 				"Feed API/HTTPClient.swift",
+				"Feed API/RemoteFeedItem.swift",
 				"Feed API/RemoteFeedLoader.swift",
 				"Feed API/URLSessionHTTPClient.swift",
 				"Feed Cache/FeedStore.swift",
