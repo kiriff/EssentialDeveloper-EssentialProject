@@ -59,6 +59,7 @@
 				"Feed API/RemoteFeedItem.swift",
 				"Feed API/RemoteFeedLoader.swift",
 				"Feed API/URLSessionHTTPClient.swift",
+				"Feed Cache/FeedCachePolicy.swift",
 				"Feed Cache/FeedStore.swift",
 				"Feed Cache/LocalFeedImage.swift",
 				"Feed Cache/LocalFeedLoader.swift",
